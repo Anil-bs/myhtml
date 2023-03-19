@@ -1,0 +1,11 @@
+*)div means division(Block level)
+ It supports all align attribute
+ Displayed in new line
+Html uses Nested div tags
+
+
+
+*)span(Innline)
+It does'n support allign  attribute
+Doesn't displayed in new line
+It doesnt use nested
