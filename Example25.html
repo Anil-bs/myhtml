@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example of Tables</title>
+    <style>
+        table,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 24px;
+        }
+        td,th{
+            padding: 16px;
+        }
+        table{
+            width: 600px;
+            background-color: skyblue;
+            margin-top:24px ;
+            margin-left: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Time table</h3>
+    <table>
+        <caption>This is coding Time Table</caption>
+        <tr>
+            <tr>
+                <td rowspan="8">Hours</td>
+            </tr>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JavaScript</td>
+            <td>ReactJS</td>
+            <td>NodeJS</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>NodeJS</td>
+            <td>ReactJS</td>
+        </tr>
+        <tr>
+            <td colspan="5" style="text-align: center;">Lunch Break</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>JavaScript</td>
+            <td>ReactJS</td>
+            <td>HTML</td>
+            <td>NodeJS</td>
+        </tr>
+        <tr>
+            <td>ReactJS</td>
+            <td>HTML</td>
+            <td>NodeJS</td>
+            <td>CSS</td>
+            <td>JavaScript</td>
+        </tr>
+    </table>
+</body>
+</html>
