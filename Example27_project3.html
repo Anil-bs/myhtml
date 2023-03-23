@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Project</title>
+    <link rel="icon" href="signup.png">
+    <style>
+        #form-item{
+            width: 300px;
+            background-color: white;
+            padding: 24px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .ptag{
+            margin: 0;
+            margin-bottom: 4px;
+            margin-top: 12px;
+        }
+        .item{
+            width: 100%;
+        }
+    </style>
+</head>
+<body style="background-color: aqua;">
+    <h1 style="text-align: center;">Sign Up page</h1>
+    <form id="form-item">
+        <div>
+            <p class="ptag">Full Name:</p>
+            <input class="item" type="text" name="username" required />
+        </div>
+        <div>
+            <p class="ptag">Email:</p>
+            <input class="item" type="email" name="email" required />
+        </div>
+        <div>
+            <p class="ptag">Password:</p>
+            <input class="item" type="password" name="pass" required />
+        </div>
+        <div>
+            <p class="ptag">Conform Password:</p>
+            <input class="item" type="password" name="conform-pass" required />
+        </div>
+         <div>
+            <p class="ptag">Gender:</p>
+            <input  type="radio" name="sex" >Male</input>
+            <input type="radio" name="sex" >Female</input>
+            <input type="radio" name="sex" >Others</input>
+        </div>
+        <div>
+            <p>Security Question:</p>
+            <select name="security-que">
+                <option  name="pet-name">What was your pet Name?</option>
+                <option name="address">What is your Address?</option>
+                <option  name="school">What was your School Name?</option>
+            </select>
+        </div><br>
+        <div>
+            <textarea name="ans" rows="3" cols="25"></textarea><br>
+        </div>
+        <div>
+            <input type="checkbox" name="accept">I agree the terms and Condition</input>
+        </div><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
