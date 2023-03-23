@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Details</title>
+    <style>
+        body{
+            background-color: yellow;
+        }
+        .para{
+            margin-top: 12px;
+            margin-bottom: 4px;
+            margin: 0;
+        }
+        #form{
+            width: 350px;
+            background-color: aquamarine;
+            padding: 24px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <form id="form">
+        <h2>User Details</h2>
+        <div>
+            <div>
+                <p class="para">Full Name</p>
+                <input type="text" name="user" id="">
+            </div>
+            <div>
+                <p class="para">Email</p>
+                <input type="email" name="email" id="">
+            </div>
+            <div>
+                <p class="para">Password</p>
+                <input type="password" name="pass" id="">
+            </div>
+            <div>
+                <p class="para">Conform Password</p>
+                <input type="password" name="cp" id="">
+            </div>
+            <div>
+                <p class="para">Contact Details</p>
+                <input type="tel" value="" id="" name="">
+            </div><br>
+            <div>
+                Address
+                <textarea name="address"></textarea>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h3>Education Details</h3>
+            <div>
+                <p class="para">Collage/University</p>
+                <select name="clgname">
+                    <option value="">Select</option>
+                    <option value="BU">Bangalore University</option>
+                    <option value="VTU">Visvesvaraya Technological University</option>
+                    <option value="BNU">Bangalore North University</option>
+                </select>
+            </div>
+            <div>
+                <p class="para">Course</p>
+                <select name="course">
+                    <option value="select">Select</option>
+                    <option value="bca">BCA</option>
+                    <option value="mca">mca</option>
+                    <option value="be">BE</option>
+                    <option value="mtech">MTech</option>
+                    <option value="mba">MBA</option>
+                    <option value="mcom">MCom</option>
+                    <option value="bcom">Bcom</option>
+                    <option value="bba">BBA</option>
+                </select>
+            </div>
+            <div>
+                <p class="para">Grade/Persentage</p>
+                <input type="text" value="" id="">
+            </div>
+                <div>
+                    <p class="para">Year of passout</p>
+                    <input type="date" >
+                </div>
+                <hr>
+            <div>
+                <h2>Programming Knowlodge</h2>
+                <div>
+                    C
+                    <input type="checkbox" value="" id="" name="">&emsp;&emsp;
+                    C++
+                    <input type="checkbox" value="" id="" name="">&emsp;
+                    Java
+                    <input type="checkbox" value="" id="" name="">&emsp;&emsp;
+                    Python
+                    <input type="checkbox" value="" id="" name="">&emsp;
+                    HTML
+                    <input type="checkbox" value="" id="" name="">&emsp;&emsp;
+                    CSS
+                    <input type="checkbox" value="" id="" name="">&emsp;
+                    JavaScript
+                    <input type="checkbox" value="" id="" name="">&emsp;&emsp;
+                    Sql
+                    <input type="checkbox" value="" id="" name="">&emsp;
+                    Full Stack Web Development
+                    <input type="checkbox" value="" id="" name="">&emsp;&emsp;
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h3>Personal Details</h3>
+                <div>
+                    <p class="para">Gender</p>
+                    Male<input type="radio" name="sex" value="" id="">
+                    Female<input type="radio" name="sex" value="" id="">
+                    Others<input type="radio" name="sex" value="" id="">
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h3>Joining</h3>
+                <div>
+                    <p class="para">Joining Week</p>
+                    <input type="week" value="" id="">
+                    <p> class="para"Joining Month</p>
+                    <input type="month" value="" id="">
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div>
+                    Resume/CV
+                    <input type="file" name="" id="">
+                </div>
+                <div>
+                    <p class="para">Any Offers in Hand</p>
+                    <input type="number" name="" id="" min="0" max="5">
+                </div>
+            </div>
+            <hr>
+            <button type="button" onclick="">Save</button>
+            <input type="submit" name="Submit Form" id="">
+            <input type="reset" name="Reset" >
+        </div>
+    </form>
+</body>
+</html>
